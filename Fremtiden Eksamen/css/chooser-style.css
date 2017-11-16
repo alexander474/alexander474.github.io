@@ -1,0 +1,186 @@
+html, body{
+    background-color: darkred;
+   
+}
+/*START HEADER*/
+header{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(40,40,40);
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    overflow: hidden;
+    padding: 2px;
+
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    animation: headeranim 3s infinite;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
+@keyframes headeranim{
+    0%{
+        color:red
+    }
+    100%{
+        color: coral;
+    }
+}
+
+.claw{
+    position: absolute;
+    width: 400px;
+    top: -110px;
+    left: -80px;
+    opacity: 0.6;
+    z-index: 5;
+}
+/*END HEADER*/
+#main-container{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    background-color: rgb(40,40,40);
+    margin: auto;
+    overflow: hidden;
+}
+
+/*START NAV*/
+#nav{
+   position: relative;
+    width: 98.3%;
+    height: 80px;
+    background-color: rgb(66,68,68);
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    overflow: hidden;
+    margin: 8px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 5px, 5px, 5px, 5px;
+    border-color: aliceblue;
+}
+.person{
+    position: absolute;
+    width: 50px;
+    z-index: 100;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    animation: person-anim 10s infinite linear;
+}
+.stand{
+    position: absolute;
+    width: 50px;
+    z-index: 2;
+    
+}
+/*GO HOME*/
+#home-wrap{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    bottom: 30px;
+}
+#home-btn{
+    width: 70px;
+    bottom: 0px;
+    left: 15px;
+}
+
+/*CHOOSER 1*/
+#person-1-wrap{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: 120px;
+    bottom: 15px;
+    opacity: 0.5;
+    
+}
+.person-1{
+    bottom: 2px;
+    left: 15px;
+}
+.stand-1{
+    bottom: -4px;
+    left: 15px
+}
+#person-1-wrap:hover{
+    opacity: 1;
+}
+/*CHOOSER 2*/
+#person-2-wrap{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: 220px;
+    bottom: 15px;
+    opacity: 0.5;
+}
+.person-2{
+    width: 23px;
+    bottom: 2px;
+    left: 30px;
+}
+.stand-2{
+    bottom: -4px;
+    left: 15px
+}
+#person-2-wrap:hover{
+    opacity: 1;
+}
+/*CHOOSER 3*/
+#person-3-wrap{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: 320px;
+    bottom: 15px;
+    opacity: 0.5;
+    
+}
+.person-3{
+   bottom: 2px;
+    left: 15px;
+}
+.stand-3{
+    bottom: -4px;
+    left: 15px
+}
+#person-3-wrap:hover{
+    opacity: 1;
+}
+/*CHOOSER 4*/
+#person-4-wrap{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: 420px;
+    bottom: 15px;
+    opacity: 0.5;
+    
+}
+.person-4{
+    width: 39px;
+   bottom: 2px;
+    left: 22px;
+}
+
+
+.stand-4{
+    bottom: -4px;
+    left: 15px
+}
+#person-4-wrap:hover{
+    opacity: 1;
+}
+/*END NAV*/
