@@ -72,9 +72,7 @@ h1{
     position: absolute;
     width: 50px;
     z-index: 100;
-    transition: all 1s ease-in-out;
     cursor: pointer;
-    animation: person-anim 10s infinite linear;
 }
 .stand{
     position: absolute;
@@ -170,7 +168,7 @@ h1{
     
 }
 .person-4{
-    width: 39px;
+    width: 32px;
    bottom: 2px;
     left: 22px;
 }
@@ -184,3 +182,89 @@ h1{
     opacity: 1;
 }
 /*END NAV*/
+/*START MAIN*/
+#hitler-main-wrap{
+    position: relative;
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+}
+.hitler-main{
+    width: 400px;
+    left: 400px;
+    bottom: 80px;
+    opacity: 0;
+    animation: main-anim 8s forwards;
+}
+.stalin-main{
+    width: 185px;
+    left: 505px;
+    bottom: 80px;
+    opacity: 0;
+    animation: main-anim 8s forwards;
+}
+.person-3-main{
+    width: 400px;
+    left: 400px;
+    bottom: 80px;
+    opacity: 0;
+    animation: main-anim 8s forwards; 
+}
+.future-main{
+    width: 270px;
+    left: 450px;
+    bottom: 80px;
+    opacity: 0;
+    animation: main-anim 8s forwards;
+}
+.stand-5{
+    width: 400px;
+    left: 400px;
+    bottom: 10px;
+}
+@keyframes main-anim{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+       opacity: 1;  
+    }
+}
+/*END MAIN*/
+/*START ARROW*/
+.arrow{
+    position: absolute;
+    width: 150px;
+    top: 200px;
+}
+/*START LEFT ARROW*/
+#left-arrow{
+    position: absolute;
+    width: 150px;
+    height: 675px;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0.5;
+}
+#left-arrow:hover{
+    opacity: 1;
+}
+/*END LEFT ARROW*/
+/*START RIGHT ARROW*/
+#right-arrow{
+    position: absolute;
+    width: 150px;
+    height: 675px;
+    bottom: 10px;
+    right: 10px; 
+    opacity: 0.5;
+}
+#right-arrow:hover{
+    opacity: 1;
+}
+/*END RIGHT ARROW*/
+/*END ARROW*/
+

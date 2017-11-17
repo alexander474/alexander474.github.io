@@ -272,7 +272,7 @@ h1{
 .person-4{
    bottom: 70px;
     left: 67px;
-    width: 120px;
+    width: 100px;
 }
 
 
@@ -315,7 +315,7 @@ h1{
     }
 }
 .person-4:hover{
-    width: 150px;
+    width: 120px;
 }
 /*END CHOOSER 4*/
 .name{
