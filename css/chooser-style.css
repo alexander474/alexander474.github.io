@@ -72,7 +72,6 @@ h1{
     position: absolute;
     width: 50px;
     z-index: 100;
-    cursor: pointer;
 }
 .stand{
     position: absolute;
@@ -267,4 +266,67 @@ h1{
 }
 /*END RIGHT ARROW*/
 /*END ARROW*/
-
+/*START INFO-BOX*/
+.info-box{
+    position: absolute;
+    width: 330px;
+    height: 250px;
+}
+.header{
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    background-color: rgb(66,68,68);
+    border-style: solid;
+    border-width: 5px, 5px, 5px, 5px;
+    border-color: black;
+}
+.header-title{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.header-text-box{
+    position: absolute;
+    top: 60px;
+    width: 330px;
+    height: 190px;
+    background-color: rgb(66,68,68);
+    border-style: solid;
+    border-width: 5px, 5px, 5px, 5px;
+    border-color: black;
+    display: none;
+}
+.header-text{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.header:hover ~ .header-text-box{
+    display: block;
+}
+/*START INFO-BOX-1*/
+.box-1{
+    top: 150px;
+    left: 290px;
+}
+/*END INFO-BOX-1*/
+/*START INFO-BOX-2*/
+.box-2{
+    top: 450px;
+    left: 290px;
+}
+/*END INFO-BOX-2*/
+/*START INFO-BOX-3*/
+.box-3{
+    top: 150px;
+    left: 1060px;
+}
+/*END INFO-BOX-3*/
+/*START INFO-BOX-4*/
+.box-4{
+    top: 450px;
+    left: 1060px;
+}
+/*END INFO-BOX-4*/
+/*END INFO-BOX*/
