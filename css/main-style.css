@@ -1,25 +1,24 @@
 html, body{
     background-color: darkred;
-    width: 100%;
+    width: 100% auto;
    
 }
 /*START HEADER*/
 header{
     position: relative;
-    width: 100%;
-    height: 90px;
+    width: 100% auto;
     background-color: rgb(40,40,40);
     margin: auto;
-    margin-bottom: 1rem;
-    margin-top: -20px;
+    margin-bottom: 1%;
+    margin-top: -1%;
     overflow: hidden;
 }
 h1{
     text-align: center;
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 280%;
     animation: headeranim 3s infinite;
-    margin-top: 10px;
+    margin-top: 1%;
     font-family: 'Oswald', sans-serif;
 }
 @keyframes headeranim{
@@ -33,9 +32,9 @@ h1{
 
 .claw{
     position: absolute;
-    width: 400px;
-    top: -110px;
-    left: -80px;
+    width: 25% auto;
+    top: -90%;
+    left: -4%;
     opacity: 0.6;
     z-index: 5;
 }
@@ -43,8 +42,8 @@ h1{
 /*END HEADER*/
 #main-container{
     position: relative;
-    width: 100%;
-    height: 800px;
+    width: 100% auto;
+    padding: 25%;
     overflow: hidden;
     background-color: rgb(40,40,40);
     margin: auto;
@@ -54,7 +53,7 @@ h1{
 
 .person{
     position: absolute;
-    width: 150px;
+    width: 46%;
     z-index: 100;
     transition: all 1s ease-in-out;
     cursor: pointer;
@@ -70,14 +69,14 @@ h1{
 }
 .stand{
     position: absolute;
-    width: 180px;
+    width: 55%;
     z-index: 2;
     
 }
 .chooser-info-text{
     position: absolute;
-    width: 250px;
-    height: 300px;
+    width: 80%;
+    height: 90%;
     background-color: red;
     border-radius: 20%;
 
@@ -85,7 +84,7 @@ h1{
 
 .play{
     position: absolute;
-    width: 100px;
+    width: 30%;
 }
 /*INFO PICTURE*/
 .picture{
@@ -95,30 +94,30 @@ h1{
 /*CHOOSER 1*/
 #person-1-wrap{
     position: absolute;
-    width: 300px;
-    height: 350px;
-    left: 300px;
-    top: 40px;
+    width: 20%;
+    height: 40%;
+    left: 17.5%;
+    top: 5%;
     
 }
 .person-1{
-    bottom: 70px;
-    left: 55px;
+    bottom: 20%;
+    left: 20%;
 }
 .stand-1{
-    bottom: 30px;
-    left: 50px
+    bottom: 9%;
+    left: 16%;
 }
 .person-1-info{
-    left: -250px;
-    bottom: 20px;
+    left: -75%;
+    bottom: 10%;
     overflow: hidden;
     animation: hitler-picture 20s infinite linear;
 
 }
 .play-1{
-    bottom: 300px;
-    left: 200px;
+    bottom:85%;
+    left: 60%;
     z-index: 99;
 }
 
@@ -146,36 +145,36 @@ h1{
     }
 }
 .person-1:hover{
-    width: 180px;
+    width: 50%;
 }
 /*END CHOOSER 1*/
 /*CHOOSER 2*/
 #person-2-wrap{
     position: absolute;
-    width: 300px;
-    height: 350px;
-    left: 1100px;
-    top: 40px;
+    width: 20%;
+    height: 40%;
+    left: 65.5%;
+    top: 5%;
     
 }
 .person-2{
-    width: 65px;
-    bottom: 70px;
-    left: 105px;
+    width: 19%;
+    bottom: 20%;
+    left: 32%;
 }
 .stand-2{
-    bottom: 30px;
-    left: 50px
+    bottom: 9%;
+    left: 16%;
 }
 .person-2-info{
-    left: 280px;
+    left: 85%;
     bottom: 20px;
     overflow: hidden;
     animation: stalin-picture 20s infinite linear;
 }
 .play-2{
-    bottom: 300px;
-    left: -20px;
+    bottom:85%;
+    left: -5%;
     z-index: 99;
 }
 @keyframes stalin-picture{
@@ -202,35 +201,35 @@ h1{
     }
 }
 .person-2:hover{
-    width: 80px;
+    width: 22%;
 }
 /*END CHOOSER 2*/
 /*CHOOSER 3*/
 #person-3-wrap{
     position: absolute;
-    width: 300px;
-    height: 350px;
-    left: 300px;
-    top: 390px;
+    width: 20%;
+    height: 40%;
+    left: 17.5%;
+    top: 49.5%;
     
 }
 .person-3{
-   bottom: 70px;
-    left: 55px;
+    bottom: 20%;
+    left: 20%;
 }
 .stand-3{
-    bottom: 30px;
-    left: 50px
+    bottom: 9%;
+    left: 16%;
 }
 .person-3-info{
-    left: -250px;
-    bottom: 20px;
+    left: -75%;
+    bottom: 10%;
     overflow: hidden;
     animation: person3-picture 20s infinite linear;
 }
 .play-3{
-    bottom: 300px;
-    left: 200px;
+    bottom:85%;
+    left: 60%;
     z-index: 99;
 }
 
@@ -258,38 +257,38 @@ h1{
     }
 }
 .person-3:hover{
-    width: 180px;
+    width: 50%;
 }
 /*END CHOOSER 3*/
 /*CHOOSER 4*/
 #person-4-wrap{
     position: absolute;
-    width: 300px;
-    height: 350px;
-    left: 1100px;
-    top: 390px;
+    width: 20%;
+    height: 40%;
+    left: 65.5%;
+    top: 49.5%;
     
 }
 .person-4{
-   bottom: 70px;
-    left: 67px;
-    width: 100px;
+    bottom: 20%;
+    left: 27%;
+    width: 27%;
 }
 
 
 .stand-4{
-   bottom: 30px;
-    left: 50px
+    bottom: 9%;
+    left: 16%;
 }
 .person-4-info{
-    left: 280px;
+    left: 85%;
     bottom: 20px;
     overflow: hidden;
     animation: mrfuture-picture 20s infinite linear;
 }
 .play-4{
-    bottom: 300px;
-    left: -20px;
+    bottom:85%;
+    left: -5%;
     z-index: 99;
 }
 @keyframes mrfuture-picture{
@@ -316,48 +315,43 @@ h1{
     }
 }
 .person-4:hover{
-    width: 120px;
+    width: 32%;
 }
 /*END CHOOSER 4*/
 .name{
-    top: -20px;
+    top: -10%;
 }
 .year{
-    bottom: -40px;
+    bottom: -14%;
 }
 .chooser-text{
     position: absolute;
     z-index: 99;
-    left: 105px;
-    font-size: 30px;
+    left: 30%;
+    font-size: 200%;
     color: red;
     font-family: 'Oswald', sans-serif;
 }
-
-
-.year:hover ~ .name{
-    top: -40px;
-}
-
 /*END CHOOSER*/
 /*INTRO*/
 #intro{
     position: absolute;
     top: 0;
-    width: 100%;
+    left: 0;
+    width: 100% auto;
     height: 100%;
     overflow: hidden;
     background-color: rgb(68,64,66);
-    margin: auto;
     overflow: hidden;
     z-index: 200;
     animation: intro 10s forwards;
 }
 #intro-text{
-    height: 900px;
+    /*height: 900px;
     margin-top: 50px;
-    left: 30px;
-    text-align: center;
+    left: 30px;*/
+    margin-top:  -1%;
+    margin-left: -8%;
 }
 
 @keyframes intro{
@@ -382,7 +376,7 @@ h1{
 /*START FOOTER*/
 #footer{
     position: relative;
-    width: 100%;
+    width: 100% auto;
     background-color: rgb(40,40,40);
     margin: auto;
     margin-top: 4px;
@@ -391,6 +385,6 @@ h1{
 #footer-text{
     text-align: center;
     color: wheat;
-    margin: 10px;
+    margin: 1%;
 }
 /*END FOOTER*/
