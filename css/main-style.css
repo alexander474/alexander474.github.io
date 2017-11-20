@@ -17,7 +17,7 @@ h1{
     text-align: center;
     color: whitesmoke;
     font-size: 280%;
-    animation: headeranim 3s infinite;
+    -webkit-animation: headeranim 3s infinite;
     margin-top: 1%;
     font-family: 'Oswald', sans-serif;
 }
@@ -55,16 +55,16 @@ h1{
     position: absolute;
     width: 46%;
     z-index: 100;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
     cursor: pointer;
-    animation: person-anim 10s infinite linear;
+    -webkit-animation: person-anim 10s infinite linear;
 }
 @keyframes person-anim{
     0%{
-      animation-delay: 3s;  
+      -webkit-animation-delay: 3s;  
     }
     100%{
-        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
     }
 }
 .stand{
@@ -112,7 +112,7 @@ h1{
     left: -75%;
     bottom: 10%;
     overflow: hidden;
-    animation: hitler-picture 20s infinite linear;
+    -webkit-animation: hitler-picture 20s infinite linear;
 
 }
 .play-1{
@@ -170,7 +170,7 @@ h1{
     left: 85%;
     bottom: 20px;
     overflow: hidden;
-    animation: stalin-picture 20s infinite linear;
+    -webkit-animation: stalin-picture 20s infinite linear;
 }
 .play-2{
     bottom:85%;
@@ -226,7 +226,7 @@ h1{
     left: -75%;
     bottom: 10%;
     overflow: hidden;
-    animation: person3-picture 20s infinite linear;
+    -webkit-animation: person3-picture 20s infinite linear;
 }
 .play-3{
     bottom:85%;
@@ -285,7 +285,7 @@ h1{
     left: 85%;
     bottom: 20px;
     overflow: hidden;
-    animation: mrfuture-picture 20s infinite linear;
+    -webkit-animation: mrfuture-picture 20s infinite linear;
 }
 .play-4{
     bottom:85%;
@@ -345,12 +345,9 @@ h1{
     background-color: rgb(68,64,66);
     overflow: hidden;
     z-index: 200;
-    animation: intro 10s forwards;
+    -webkit-animation: intro 10s forwards;
 }
 #intro-text{
-    /*height: 900px;
-    margin-top: 50px;
-    left: 30px;*/
     margin-top:  -1%;
     margin-left: -8%;
 }

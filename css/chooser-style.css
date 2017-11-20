@@ -18,7 +18,7 @@ h1{
     text-align: center;
     color: whitesmoke;
     font-size: 280%;
-    animation: headeranim 3s infinite;
+    -webkit-animation: headeranim 3s infinite;
     margin-top: 1%;
     font-family: 'Oswald', sans-serif;
 }
@@ -183,7 +183,6 @@ h1{
 #person-main-wrap{
     position: relative;
     width: 25%;
-    /*height: 650px;*/
     padding-top:10%;
     padding-bottom: 39%;
     margin: auto;
@@ -208,28 +207,28 @@ h1{
     left: 10%;
     bottom: 10%;
     opacity: 0;
-    animation: main-anim 8s forwards;
+    -webkit-animation: main-anim 8s forwards;
 }
 .stalin-main{
     width: 44%;
     left: 33%;
     bottom: 10%;
     opacity: 0;
-    animation: main-anim 8s forwards;
+    -webkit-animation: main-anim 8s forwards;
 }
 .person-3-main{
     width: 130%;
     left: -3%;
     bottom: 10%;
     opacity: 0;
-    animation: main-anim 8s forwards;
+    -webkit-animation: main-anim 8s forwards;
 }
 .future-main{
     width: 62%;
     left: 25%;
     bottom: 10%;
     opacity: 0;
-    animation: main-anim 8s forwards;
+    -webkit-animation: main-anim 8s forwards;
 }
 .stand-5{
     width: 80%;
@@ -299,11 +298,13 @@ h1{
     background-color: rgb(66,68,68);
     border-style: solid;
     border-color: black;
+    opacity: 0.5;
 }
 .header-title{
     text-align: center;
     font-size: 200%;
-    margin-top: 4%;
+    margin-top: 7%;
+    color: azure;
 }
 .header-text-box{
     position: absolute;
@@ -353,6 +354,9 @@ li{
     top: 60%;
     left: 63.5%;
     z-index: 100;
+}
+.header-box:hover{
+    opacity: 1;
 }
 /*END INFO-BOX-4*/
 /*END INFO-BOX*/
