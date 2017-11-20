@@ -44,7 +44,7 @@ h1{
     position: relative;
     width: 100% auto;
     overflow: hidden;
-    padding-bottom: 2%;
+    padding: 2%;
     background-color: rgb(40,40,40);
     margin: auto;
     overflow: hidden;
@@ -58,7 +58,7 @@ h1{
     background-color: rgb(66,68,68);
     margin: auto;
     overflow: hidden;
-    margin: 0.5%;
+    margin: -1.5%;
     padding: 0.3%;
     border-style: solid;
     border-color: aliceblue;
@@ -143,8 +143,9 @@ h1{
     
 }
 .person-3{
-    bottom: 1%;
-    left: 30%;
+    width: 130%;
+    bottom: 3%;
+    left: 22%;
 }
 .stand-3{
     bottom: -6%;
@@ -183,6 +184,7 @@ h1{
     position: relative;
     width: 25%;
     /*height: 650px;*/
+    padding-top:10%;
     padding-bottom: 39%;
     margin: auto;
     z-index: 100;
@@ -216,8 +218,8 @@ h1{
     animation: main-anim 8s forwards;
 }
 .person-3-main{
-    width: 95%;
-    left: 10%;
+    width: 130%;
+    left: -3%;
     bottom: 10%;
     opacity: 0;
     animation: main-anim 8s forwards;
@@ -286,8 +288,9 @@ h1{
 .info-box{
     position: absolute;
     width: 19.7%;
-    height: 33%;
+    height: 38.5%;
     z-index: 100;
+    margin-bottom: 1%;
 }
 .header-box{
     position: absolute;
@@ -295,7 +298,6 @@ h1{
     height: 23%;
     background-color: rgb(66,68,68);
     border-style: solid;
-    border-width: 5px, 5px, 5px, 5px;
     border-color: black;
 }
 .header-title{
@@ -329,24 +331,28 @@ li{
 .box-1{
     top: 20%;
     left: 17.5%;
+    z-index: 100;
 }
 /*END INFO-BOX-1*/
 /*START INFO-BOX-2*/
 .box-2{
-    top: 56%;
+    top: 60%;
     left: 17.5%;
+    z-index: 100;
 }
 /*END INFO-BOX-2*/
 /*START INFO-BOX-3*/
 .box-3{
     top: 20%;
     left: 63.5%;
+    z-index: 100;
 }
 /*END INFO-BOX-3*/
 /*START INFO-BOX-4*/
 .box-4{
-    top: 56%;
+    top: 60%;
     left: 63.5%;
+    z-index: 100;
 }
 /*END INFO-BOX-4*/
 /*END INFO-BOX*/

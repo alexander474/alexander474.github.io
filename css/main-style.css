@@ -214,8 +214,9 @@ h1{
     
 }
 .person-3{
+    width: 60%;
     bottom: 20%;
-    left: 20%;
+    left: 12%;
 }
 .stand-3{
     bottom: 9%;
@@ -229,35 +230,35 @@ h1{
 }
 .play-3{
     bottom:85%;
-    left: 60%;
+    left: 74%;
     z-index: 99;
 }
 
 @keyframes person3-picture{
     0%{
         background-position: center;
-        background-image: url(/images/nazi.png);
+        background-image: url(/images/alien_1.jpg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(/images/alien_2.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/hitler-3.jpg);
+        background-image: url(/images/alien_3.jpg);
     }
     75%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(/images/alien_2.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/hitler-4.jpg); 
+        background-image: url(/images/alien_4.jpg); 
     }
 }
 .person-3:hover{
-    width: 50%;
+    width: 70%;
 }
 /*END CHOOSER 3*/
 /*CHOOSER 4*/
@@ -294,24 +295,24 @@ h1{
 @keyframes mrfuture-picture{
     0%{
         background-position: center;
-        background-image: url(/images/nazi.png);
+        background-image: url(/images/ai_1.jpeg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(/images/ai_2.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/hitler-3.jpg);
+        background-image: url(/images/ai_3.jpg);
     }
     75%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(/images/ai_2.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/hitler-4.jpg); 
+        background-image: url(/images/ai-4.jpg); 
     }
 }
 .person-4:hover{
