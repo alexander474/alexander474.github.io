@@ -319,12 +319,6 @@ h1{
     width: 32%;
 }
 /*END CHOOSER 4*/
-.name{
-    top: -10%;
-}
-.year{
-    bottom: -14%;
-}
 .chooser-text{
     position: absolute;
     z-index: 99;
@@ -332,6 +326,13 @@ h1{
     font-size: 200%;
     color: red;
     font-family: 'Oswald', sans-serif;
+}
+.name{
+    top: -10%;
+}
+.year{
+    left: 20%;
+    bottom: -14%;
 }
 /*END CHOOSER*/
 /*INTRO*/
