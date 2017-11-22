@@ -67,7 +67,6 @@ h1{
     position: absolute;
     width: 100%;
     z-index: 100;
-    cursor: pointer;
 }
 .stand{
     position: absolute;

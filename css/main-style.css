@@ -1,7 +1,7 @@
 html, body{
     background-color: darkred;
     width: 100% auto;
-   
+    height: 100% auto;
 }
 /*START HEADER*/
 header{
@@ -117,7 +117,7 @@ h1{
 }
 .play-1{
     bottom:85%;
-    left: 60%;
+    left: 74%;
     z-index: 99;
 }
 
@@ -174,7 +174,7 @@ h1{
 }
 .play-2{
     bottom:85%;
-    left: -5%;
+    left: -15%;
     z-index: 99;
 }
 @keyframes stalin-picture{
@@ -289,7 +289,7 @@ h1{
 }
 .play-4{
     bottom:85%;
-    left: -5%;
+    left: -15%;
     z-index: 99;
 }
 @keyframes mrfuture-picture{
@@ -308,11 +308,11 @@ h1{
     }
     75%{
         background-position: center;
-        background-image: url(/images/ai_2.jpg);
+        background-image: url(/images/ai_5.png);
     }
     100%{
        background-position: center;
-        background-image: url(/images/ai-4.jpg); 
+        background-image: url(/images/ai_1.jpeg); 
     }
 }
 .person-4:hover{
@@ -320,19 +320,24 @@ h1{
 }
 /*END CHOOSER 4*/
 .chooser-text{
-    position: absolute;
+    position: relative;
+    width: 50%;
+    height: 15%;
     z-index: 99;
     left: 30%;
-    font-size: 200%;
+    font-size: 30px;
+    text-align: center;
     color: red;
     font-family: 'Oswald', sans-serif;
+
 }
 .name{
+    left:20%;
     top: -10%;
 }
 .year{
     left: 20%;
-    bottom: -14%;
+    bottom: -60%;
 }
 /*END CHOOSER*/
 /*INTRO*/
