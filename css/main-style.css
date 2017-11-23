@@ -134,24 +134,24 @@ h1{
 @keyframes hitler-picture{
     0%{
         background-position: center;
-        background-image: url(/images/hitler-3.jpg);
+        background-image: url(../images/hitler-3.jpg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/hitler-3.jpg);
+        background-image: url(../images/hitler-3.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/nazi.png);
+        background-image: url(../images/nazi.png);
     }
     75%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(../images/hitler-2.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/hitler-4.jpg); 
+        background-image: url(../images/hitler-4.jpg); 
     }
 }
 .person-1:hover{
@@ -190,24 +190,24 @@ h1{
 @keyframes stalin-picture{
     0%{
         background-position: center;
-        background-image: url(/images/stalin-1.jpg);
+        background-image: url(../images/stalin-1.jpg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/stalin-2.jpg);
+        background-image: url(../images/stalin-2.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/stalin-3.jpg);
+        background-image: url(../images/stalin-3.jpg);
     }
     75%{
         background-position: center;
-        background-image: url(/images/stalin-1.jpg);
+        background-image: url(../images/stalin-1.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/stalin-4.jpg); 
+        background-image: url(../images/stalin-4.jpg); 
     }
 }
 .person-2:hover{
@@ -247,24 +247,24 @@ h1{
 @keyframes person3-picture{
     0%{
         background-position: center;
-        background-image: url(/images/alien_1.jpg);
+        background-image: url(../images/alien_1.jpg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/alien_2.jpg);
+        background-image: url(../images/alien_2.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/alien_3.jpg);
+        background-image: url(../images/alien_3.jpg);
     }
     75%{
         background-position: center;
-        background-image: url(/images/alien_2.jpg);
+        background-image: url(../images/alien_2.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/alien_4.jpg); 
+        background-image: url(../images/alien_4.jpg); 
     }
 }
 .person-3:hover{
@@ -305,24 +305,24 @@ h1{
 @keyframes mrfuture-picture{
     0%{
         background-position: center;
-        background-image: url(/images/ai_1.jpeg);
+        background-image: url(../images/ai_1.jpeg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/ai_2.jpg);
+        background-image: url(../images/ai_2.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/ai_3.jpg);
+        background-image: url(../images/ai_3.jpg);
     }
     75%{
         background-position: center;
-        background-image: url(/images/ai_2.jpg);
+        background-image: url(../images/ai_2.jpg);
     }
     100%{
        background-position: center;
-        background-image: url(/images/ai_1.jpeg); 
+        background-image: url(../images/ai_1.jpeg); 
     }
 }
 .person-4:hover{
