@@ -322,7 +322,7 @@ h1{
     border-color: black;
     display: none;
 }
-.header-text{
+.header-text, p{
     color: white;
     font-size: 95%;
     text-align: center;
