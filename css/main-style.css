@@ -134,16 +134,16 @@ h1{
 @keyframes hitler-picture{
     0%{
         background-position: center;
-        background-image: url(/images/nazi.png);
+        background-image: url(/images/hitler-3.jpg);
     }
     35%{
         background-position: center;
-        background-image: url(/images/hitler-2.jpg);
+        background-image: url(/images/hitler-3.jpg);
     }
     50%{
         background-position: center;
         background-position: top;
-        background-image: url(/images/hitler-3.jpg);
+        background-image: url(/images/nazi.png);
     }
     75%{
         background-position: center;
